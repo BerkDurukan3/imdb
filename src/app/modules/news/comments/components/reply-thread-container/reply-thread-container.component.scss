@@ -1,0 +1,26 @@
+.reply-thread-container {
+    height: 50px;
+    border: 2px solid #F4F3F3;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 25px;
+}
+
+.reply-thread-container .text {
+    text-align: left;
+    font: normal normal normal 14px/19px Open Sans;
+    letter-spacing: 0px;
+    color: #AAAAAA;
+    opacity: 1;
+}
+
+.reply-thread-container .icon {
+    width: 26px;
+    height: 30px;
+    background: transparent url('../../../../../../assets/images/arrows.svg') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}

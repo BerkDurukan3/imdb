@@ -1,0 +1,19 @@
+@mixin centered {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-container {
+    @include centered();
+    justify-content: space-between;
+    height: 70px;
+    padding-left: 76px;
+    padding-right: 76px;
+    gap: 10px;
+}
+
+.search-and-profile-container {
+    @include centered();
+    gap: 18px;
+}

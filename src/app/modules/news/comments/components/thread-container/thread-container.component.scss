@@ -1,0 +1,28 @@
+.thread-container {
+    width: 459px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    display: flex;
+    flex-direction: column;
+}
+
+.image-container {
+    display: flex;
+    gap: 4px;
+    padding-left: 60px;
+    padding-top: 10px;
+}
+
+.image-container>img:first-of-type {
+    width: 156px;
+}
+
+.second-image {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.second-image img {
+    width: 112px;
+    height: 74px;
+}

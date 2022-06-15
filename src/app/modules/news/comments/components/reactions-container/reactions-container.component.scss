@@ -1,0 +1,15 @@
+.reactions {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding-left: 60px;
+    padding-top: 10px;
+}
+
+.reactions .reply {
+    text-align: left;
+    font: normal normal 600 12px/17px Open Sans;
+    letter-spacing: 0px;
+    color: #AAAAAA;
+    opacity: 1;
+}

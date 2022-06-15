@@ -1,0 +1,22 @@
+<div class="thread-container">
+    <div>
+        <app-comment-reply-container [profileImage]="
+        '../../../../../../assets/images/6ef8449d61901cad39f2adc0b5a404cf.png'
+      " [username]="'username'" [date]="'6h'" [time]="''"></app-comment-reply-container>
+
+        <app-reply-container></app-reply-container>
+        <div style="padding-left: 40px; padding-top: 10px">
+            <app-user-container [profileImage]="profileImage" [username]="'username'" [flag]="true" [date]="'3h'" [time]="''"></app-user-container>
+            <app-text [nameFlag]="true" [text]="'lorem ipsum dolor sit amet, consectet adipiscing elit, sed do'"></app-text>
+            <div class="image-container">
+                <img src="../../../../../../assets/images/img2.png" />
+                <div class="second-image">
+                    <img src="../../../../../../assets/images/img1.png" />
+                    <img src="../../../../../../assets/images/img3.png" />
+                </div>
+            </div>
+            <app-reactions-container [like]="'2200'" [dislike]="'2200'"></app-reactions-container>
+        </div>
+    </div>
+    <app-reply-thread-container></app-reply-thread-container>
+</div>

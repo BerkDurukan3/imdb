@@ -1,0 +1,10 @@
+<div class="reaction" (click)="clickReaction($event.target)">
+    <div id="{{ id }}" class="icon" [ngClass]="{
+      'like-false ': !clickFlag && id === 'like',
+      'like-true ': clickFlag && id === 'like',
+      'dislike-false ': !clickFlag && id === 'dislike',
+      'dislike-true ': clickFlag && id === 'dislike',
+      'comments-icon': !clickFlag && id === 'comments'
+    }"></div>
+    <div id="{{ id }}" class="text">{{ text }}</div>
+</div>

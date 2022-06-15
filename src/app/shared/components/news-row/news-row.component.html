@@ -1,0 +1,17 @@
+<div class="row">
+    <div class="info-container">
+        <div (click)="clickTitle($event.target)" class="title" id="{{id}}">
+            {{title}}
+        </div>
+        <div style="display: flex; justify-content: space-between">
+            <div class="reactions-container">
+                <app-reaction [clickFlag]="false" [id]="'dislike'" [text]="dislike"></app-reaction>
+                <app-reaction [clickFlag]="false" [id]="'like'" [text]="like"></app-reaction>
+                <app-reaction [clickFlag]="false" [id]="'comments'" style="margin-left: 8px;" [text]="comments"></app-reaction>
+            </div>
+
+            <div class="date">{{date}}</div>
+        </div>
+    </div>
+    <div class="dots"></div>
+</div>

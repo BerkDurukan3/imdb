@@ -1,0 +1,20 @@
+.reply-container {
+    display: flex;
+    gap: 5px;
+    padding-left: 60px;
+}
+
+.reply-container .icon {
+    width: 13px;
+    height: 11px;
+    background: transparent url('../../../../../../assets/images/reply.svg') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.reply-container .text {
+    text-align: left;
+    font: normal normal normal 11px/15px Open Sans;
+    letter-spacing: 0.09px;
+    color: #03B425;
+    opacity: 1;
+}

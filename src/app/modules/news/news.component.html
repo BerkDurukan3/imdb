@@ -1,0 +1,9 @@
+<div class="news-container">
+    <div class="btn-container">
+        <div (click)="clickTabs()" [ngClass]="{'active': currentTab === 'pop'}">Popular</div>
+        <div (click)="clickTabs()" [ngClass]="{'active': currentTab === 'rec'}">Recents</div>
+    </div>
+    <div *ngFor="let data of datas">
+        <app-news-row id="{{data.id}}" title="{{ data.title }}" like="{{ data.like }}" dislike="{{ data.dislike }}" comments="{{ data.comments }}" date="{{data.date | date:'shortDate'}}"></app-news-row>
+    </div>
+</div>

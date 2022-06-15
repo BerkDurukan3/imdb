@@ -1,0 +1,8 @@
+<div class="user-container">
+    <div style="display: flex; align-items: center; gap: 10px">
+        <img [src]="profileImage" class="profile-image">
+        <div class="username">{{username}}</div>
+        <div class="date">• <span *ngIf="!flag">{{date | date:'shortDate'}}</span><span *ngIf="flag">{{date}} </span>• {{time}}</div>
+    </div>
+    <div class="dots"></div>
+</div>

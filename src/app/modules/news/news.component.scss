@@ -1,0 +1,32 @@
+@mixin centered {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.news-container {
+    width: 373px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.btn-container {
+    @include centered();
+    height: 40px;
+}
+
+.btn-container div {
+    width: 50%;
+    height: 100%;
+    @include centered();
+    font: normal normal normal 16px/22px Open Sans;
+    letter-spacing: 0.16px;
+    color: #626262;
+    cursor: pointer;
+}
+
+.active {
+    border-bottom: 3px solid #03B425;
+    color: #16232C !important;
+}
