@@ -7,8 +7,8 @@ import { data } from '../../shared/constants/data';
   styleUrls: ['./news.component.scss'],
 })
 export class NewsComponent implements OnInit {
-  datas: Array<any> | undefined;
-  orderedDatas: Array<any> | undefined;
+  datas!: Array<any>
+  orderedDatas!: Array<any>
 
   currentTab = 'pop';
   constructor() {}

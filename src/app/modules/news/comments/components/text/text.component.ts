@@ -8,7 +8,7 @@ import { ChangeDetectionStrategy, Component, Input, OnInit } from '@angular/core
 })
 export class TextComponent implements OnInit {
   @Input()
-  text !: String
+  text !: string
 
   @Input()
   nameFlag !: boolean

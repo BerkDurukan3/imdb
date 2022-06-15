@@ -13,16 +13,16 @@ import {
 })
 export class ReactionComponent implements OnInit {
   @Input()
-  path: string | undefined;
+  path!: string
 
   @Input()
-  text: string | undefined;
+  text!: number
 
   @Input()
-  id: string | undefined;
+  id!: string
 
   @Input()
-  clickFlag: boolean | undefined;
+  clickFlag!: boolean
 
   constructor() {}
 
@@ -34,9 +34,9 @@ export class ReactionComponent implements OnInit {
     }
 
     if (!this.clickFlag) {
-      this.text = (Number(this.text) + 1).toString();
+      //this.text = (Number(this.text) + 1).toString();
     } else {
-      this.text = (Number(this.text) - 1).toString();
+      //this.text = (Number(this.text) - 1).toString();
     }
     this.clickFlag = !this.clickFlag;
   }

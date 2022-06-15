@@ -8,7 +8,7 @@ import { ChangeDetectionStrategy, Component, Input, OnInit } from '@angular/core
 })
 export class ThreadContainerComponent implements OnInit {
   @Input()
-  profileImage !: String
+  profileImage !: string
   constructor() { }
 
   ngOnInit(): void {

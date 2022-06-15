@@ -9,22 +9,22 @@ import { ChangeDetectionStrategy, Component, Input, OnInit } from '@angular/core
 export class CommentContainerComponent implements OnInit {
 
   @Input()
-  profileImage !: String
+  profileImage !: string
 
   @Input()
-  username !: String
+  username !: string
 
   @Input()
-  date !: String
+  date !: string
 
   @Input()
-  time !: String
+  time !: string
 
   @Input()
-  text !: String
+  text !: string
 
   @Input()
-  path !: String
+  path !: string
 
   @Input()
   like!: number;

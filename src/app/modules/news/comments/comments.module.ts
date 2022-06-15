@@ -18,7 +18,6 @@ import { ReplyThreadContainerComponent } from './components/reply-thread-contain
 @NgModule({
   declarations: [
     CommentsComponent,
-    ProfileImageComponent,
     UserContainerComponent,
     CommentContainerComponent,
     CommentReplyContainerComponent,

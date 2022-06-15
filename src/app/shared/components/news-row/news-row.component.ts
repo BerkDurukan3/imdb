@@ -14,22 +14,22 @@ import { Router } from '@angular/router';
 })
 export class NewsRowComponent implements OnInit {
   @Input()
-  title: string | undefined;
+  title!: string
 
   @Input()
-  like: string | undefined;
+  like!: number
 
   @Input()
-  dislike: string | undefined;
+  dislike!: number
 
   @Input()
-  comments: string | undefined;
+  comments!: number
 
   @Input()
-  date: string | undefined;
+  date!: string
 
   @Input()
-  id: string | undefined;
+  id!: string
 
   constructor(private router: Router) {}
 
