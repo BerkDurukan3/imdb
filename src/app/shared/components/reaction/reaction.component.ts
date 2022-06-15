@@ -34,9 +34,9 @@ export class ReactionComponent implements OnInit {
     }
 
     if (!this.clickFlag) {
-      //this.text = (Number(this.text) + 1).toString();
+      this.text = this.text + 1
     } else {
-      //this.text = (Number(this.text) - 1).toString();
+      this.text = this.text - 1
     }
     this.clickFlag = !this.clickFlag;
   }
